@@ -1,0 +1,18 @@
+OPERADORES LÓGICOS
+
+Comprobación de Atributos de Ficheros
+
+Operador         Devuelveverdero si
+
+-d    Fichero existe y es un directorio
+-e    Fichero existe
+-f    Fichero exite y no es un directorio
+-r    Tienes  permisos de escritura de el fichero
+-s    Fichero exite y no esta vacio
+-w    Tienes permisos de escritura en el fichero
+-x    Tienes permisos de ejecucion en el fichero  
+      (o búsqueda si es un directorio)
+-o    Eres el dueño del fichero
+-g    El grupo de fechero es igual al tuyo
+-nt   Mas reciente que
+-ot   Mas antiguo que 
